@@ -16,3 +16,6 @@ main.o: main.c
 
 clean:
 	@rm -rf main *.o
+
+print:
+	@ls -la
