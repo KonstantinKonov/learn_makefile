@@ -14,5 +14,5 @@ dict.o: $(LIBS)/dict.c
 load_text.o: $(LIBS)/load_text.c
 	@$(CC) $(CFLAGS) -c $^ -o $@
 
-print:
-	@cat main.c
+clean:
+	@rm -rf main *.o
