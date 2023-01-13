@@ -18,4 +18,8 @@ clean:
 	@rm -rf main *.o
 
 print:
+<<<<<<< HEAD
 	@ls -la *.c
+=======
+	@ls -la
+>>>>>>> 72b74ff14ae3b250033239ae00ca4bbfe37d2cc3
